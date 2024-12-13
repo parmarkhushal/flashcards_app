@@ -19,14 +19,14 @@ class _HomeState extends State<HomePage> {
     //hard coded list to show user some question on launching the app
     {
       "question": "C language developed by whom ?",
-      "answer": "Dennis Ritche"
+      "answer": "Dennis Ritchie"
     }, //and the same list's object can be updated and deleted by user
-    {"question": "Linux OS build by whom ?", "answer": "Linus Torwald"},
-    {"question": "Flutter is founded by?", "answer": "Google"}
+    {"question": "Linux OS was developed by ?", "answer": "Linus Torvalds"},
+    {"question": "Which programming language is used in flutter to build application ?", "answer": "Dart"}
   ];
 
   editAndAdd({String? ques, String? ans, int? questionNo}) {
-    //to edit question and answer and can add also in the list
+    //to edit question and answer and can add new one also in the list
     TextEditingController answer = TextEditingController();
     TextEditingController question = TextEditingController();
 
